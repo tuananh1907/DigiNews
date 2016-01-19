@@ -327,10 +327,12 @@ body{
 .content-left-text-img-pc {
 	background: #1bbc9b;
 }
+
 .content-left-bottom-right-img{
 	width: 545px;
 	float: left;
 	position: relative;
+	padding-bottom: 15px;
 }
 .img-hover {
 	position: absolute;
@@ -394,9 +396,19 @@ body{
 .content-left-bottom-left .digital-content {
 	top: 322px;
 }
+
+.content-left-bottom-left .title-content {
+	margin-bottom: 14px;
+}
+
 .content-left-bottom-right-img .digital-content {
 	top: 322px;
 }
+
+.content-left-bottom-right-img {
+	margin-bottom: 15px;
+}
+
 .mobile .title-content:hover {
 	color: #ff9801;
 }
@@ -431,10 +443,10 @@ body{
 }
 
 .big-img-clock .title-content {
-	padding-bottom: 34px;
+	padding-bottom: 35px;
 }
 .big-img-clock .clock-input {
-	bottom: 12px;
+	bottom: 27px;
 }
 .loading-block {
 	margin: 60px 0;
