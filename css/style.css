@@ -37,6 +37,11 @@ body{
 	background: url('../images/youtube_icon.png') no-repeat center;
 	border-right: 1px solid #5c5c5c;
 }
+
+.header_youtube_icon:hover{background:#d84739  url('../images/you_act.png') no-repeat center;}
+.header_gg_icon:hover{background:#e76147 url('../images/google_act.png') no-repeat center;}
+.header_fb_icon:hover{background:#4b6ea7 url('../images/facebook_act.png') no-repeat center; }
+
 .header-info {
 	width: 859px;
 	float: right;
@@ -384,7 +389,7 @@ body{
 	top: 80px;
 }
 .no-img .text-content {
-	padding-bottom: 46px!important;
+	height: 246px!important
 }
 .content-left-bottom-left .digital-content {
 	top: 322px;
@@ -953,7 +958,8 @@ body{
 }
 
 .box .text-content {
-	padding: 0 15px;
+	padding: 0 15px 15px;
+	height: 100px
 }
 
 .box .digital-content {
